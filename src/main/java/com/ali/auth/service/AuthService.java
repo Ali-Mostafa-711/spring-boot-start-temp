@@ -1,13 +1,13 @@
-package com.ali.user.service;
+package com.ali.auth.service;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.ali.user.dto.AuthResponse;
-import com.ali.user.dto.LoginRequest;
-import com.ali.user.dto.RegisterRequest;
+import com.ali.auth.dto.AuthResponse;
+import com.ali.auth.dto.LoginRequest;
+import com.ali.auth.dto.RegisterRequest;
 import com.ali.user.dto.UserResponse;
 import com.ali.user.entity.User;
 import com.ali.user.repository.UserRepository;

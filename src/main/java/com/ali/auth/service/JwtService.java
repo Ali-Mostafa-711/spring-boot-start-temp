@@ -1,4 +1,4 @@
-package com.ali.user.service;
+package com.ali.auth.service;
 
 import java.util.Date;
 

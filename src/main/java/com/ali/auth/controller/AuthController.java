@@ -1,12 +1,12 @@
-package com.ali.user.controller;
+package com.ali.auth.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ali.user.dto.AuthResponse;
-import com.ali.user.dto.LoginRequest;
-import com.ali.user.dto.RegisterRequest;
-import com.ali.user.service.AuthService;
+import com.ali.auth.dto.AuthResponse;
+import com.ali.auth.dto.LoginRequest;
+import com.ali.auth.dto.RegisterRequest;
+import com.ali.auth.service.AuthService;
 
 import lombok.RequiredArgsConstructor;
 

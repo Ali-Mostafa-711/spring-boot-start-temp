@@ -1,4 +1,4 @@
-package com.ali.user.dto;
+package com.ali.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

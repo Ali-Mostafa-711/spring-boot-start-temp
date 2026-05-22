@@ -1,4 +1,4 @@
-package com.ali.user.security;
+package com.ali.auth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

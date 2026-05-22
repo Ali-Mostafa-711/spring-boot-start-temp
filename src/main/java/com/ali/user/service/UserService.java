@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.ali.user.dto.RegisterRequest;
+import com.ali.auth.dto.RegisterRequest;
 import com.ali.user.entity.User;
 import com.ali.user.repository.UserRepository;
 

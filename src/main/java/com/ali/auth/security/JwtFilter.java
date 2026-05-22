@@ -1,4 +1,4 @@
-package com.ali.user.security;
+package com.ali.auth.security;
 
 import java.io.IOException;
 
@@ -8,8 +8,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-
-import com.ali.user.service.JwtService;
+import com.ali.auth.service.JwtService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
