@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo
+
+jwt:
+  secret: mySuperSecretKeyThatIsAtLeast32BytesLong!
+
+# server:
+#   port: 8083
